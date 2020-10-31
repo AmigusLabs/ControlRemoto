@@ -1,0 +1,27 @@
+#PINES
+pinLuz: 20
+pinRego: 21
+pinHumidade: 16
+pinServo: 37
+
+#LOG
+logFolder: /home/pi/cultivo/logs
+imageCamFolder: webcam
+fileTempIn: logTempIn
+fileTempOut: logTempOut
+fileLight: logLight
+fileHumidity: logHum
+
+#ESP8266
+esp8266Hum01: http://192.168.1.136/humidity
+
+#REGO segundos(s) minutos(m) horas(h) dias(d)
+secRego: 10s
+
+#TEMPERATURA PARA ABRIR VENTILACION
+tempMax: 24
+#TEMPO QUE MANTEN ABERTA A VENTILACION
+secsVent: 5m
+
+#SE A LUZ EX5TERIOR E MAIOR QUE ESTE PARAMETRO NON SE ENCENDE A ARTIFICIAL
+luzMin: 56
